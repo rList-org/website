@@ -7,7 +7,7 @@ export default defineConfig({
 		starlight({
 			title: 'rList',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/rList-org',
 			},
 			sidebar: [
 				{
