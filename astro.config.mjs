@@ -11,15 +11,16 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Getting Started',
+					autogenerate: { directory: 'get-start' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'API Reference',
+					autogenerate: { directory: 'api-ref' },
+				},
+				{
+					label: "Drivers' Config",
+					autogenerate: { directory: 'drivers' },
 				},
 			],
 		}),

@@ -3,7 +3,7 @@ title: rList
 description: Build your fire sharing website for everyone
 template: splash
 hero:
-  tagline: File sharing system with insane performence
+  tagline: Build your fire sharing site for everyone
   image:
     file: ../../assets/rlist.svg
   actions:
@@ -22,15 +22,15 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="Insane Performance" icon="rocket">
-		Handle over 1 billion requests per second in a single server.
+		Tiny VPS down to 128MB RAM and 1 vCPU is enough to handle all requests if with 1Gbps bandwidth limit.
 	</Card>
 	<Card title="Easy to Deploy" icon="setting">
-		Tiny VPS down to 128MB RAM is enough to start. Cloud native and serverless are also supported.
+		All you need is just `cargo install rlist-cli`. Docker image is also available.
 	</Card>
-	<Card title="Plugin System" icon="external">
-		High performence ABI plugin system to extend the core features, including captcha, analytics, and [more]().
+	<Card title="External Feather" icon="external">
+		Configure captcha, analytics, and more with external feathers in default `config.json` without any code.
 	</Card>
-	<Card title="Atlas as a Service" icon="open-book">
-		Use [rList Atlas]() to subscribe all sharers and find everything you need.
+	<Card title="Atlas" icon="open-book">
+		Users can use [rList Atlas]() to subscribe all sharers and find everything that they need.
 	</Card>
 </CardGrid>
